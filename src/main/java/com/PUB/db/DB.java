@@ -4,7 +4,7 @@ import java.sql.*;
 
 public class DB {
 
-    private static final String URL  = "jdbc:mysql://localhost:3306/PUB_ems?useSSL=false&serverTimezone=UTC";
+   private static final String URL  = "jdbc:mysql://localhost:3306/PUB_ems?useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true";
     private static final String USER = "root";
     private static final String PASS = "101048mtm"; 
 
